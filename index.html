@@ -270,6 +270,8 @@ A lot of studies have addressed the potential benefits and costs of group living
     L.control.layers(baseMaps).addTo(mymap);
 
 	var mymarkers = new L.markerClusterGroup({maxClusterRadius: 20});
+    var mymarker = new L.marker([-10, 80]).bindPopup("[63] <a href='http://dx.doi.org/10.3389/fmars.2022.960939' target='_blank'>Podlejski et al. (2022)</a>. Filtering out false Sargassum detections using context features.");
+    mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-5, 55]).bindPopup("[62] <a href='http://dx.doi.org/10.1093/icesjms/fsac091' target='_blank'>MacMillan et al. (2022)</a>. Spatio-temporal variability in drifting Fish Aggregating Device (dFAD) beaching events in the Seychelles Archipelago.");
 	mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-10, 80]).bindPopup("[61] <a href='http://dx.doi.org/10.1038/s41893-022-00883-y' target='_blank'>Imzilen et al. (2022)</a>. Recovery at sea of abandoned, lost or discarded drifting fish aggregating devices.");
@@ -383,6 +385,8 @@ A lot of studies have addressed the potential benefits and costs of group living
 <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/622904/description#description" title="Journal of Theoretical Biology" target="_blank"><img src="Files/JournalJTB.gif" width=45 height=61></a>
 <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/503306/description#description" title="Ecological Modelling" target="_blank"><img src="Files/JournalEM.gif" width=45 height=61></a>
 <br><br>
+[63) <a href="http://dx.doi.org/10.3389/fmars.2022.960939" target="_blank">Podlejski W, Descloitres J, Chevalier C, Minghelli A, <b>Lett C</b>, Berline L (2022)</a>. Filtering out false Sargassum detections using context features. Frontiers in Marine Science 9: 960939.<br>
+<br>
 [62] <a href="http://dx.doi.org/10.1093/icesjms/fsac091" target="_blank">MacMillan I, Attrill MJ, Imzilen T, <b>Lett C</b>, Walmsley S, Chu C, Kaplan DM (2022)</a>. Spatio-temporal variability in drifting Fish Aggregating Device (dFAD) beaching events in the Seychelles Archipelago. ICES Journal of Marine Science 79(5): 1685&#8211;1700.<br>
 <br>
 [61] <a href="http://dx.doi.org/10.1038/s41893-022-00883-y" target="_blank">Imzilen T, <b>Lett C</b>, Chassot E, Maufroy A, Goujon M, Kaplan DM (2022)</a>. Recovery at sea of abandoned, lost or discarded drifting fish aggregating devices. Nature Sustainability 5: 593&#8211;602. <a href="http://dx.doi.org/10.1038/d41586-022-01222-z" target="_blank">Nature Research Highlight</a><br>
