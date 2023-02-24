@@ -270,25 +270,27 @@ A lot of studies have addressed the potential benefits and costs of group living
     L.control.layers(baseMaps).addTo(mymap);
 
 	var mymarkers = new L.markerClusterGroup({maxClusterRadius: 20});
-    var mymarker = new L.marker([-10, -20]).bindPopup("[63] <a href='http://dx.doi.org/10.3389/fmars.2022.960939' target='_blank'>Podlejski et al. (2022)</a>. Filtering out false Sargassum detections using context features.");
+    var mymarker = new L.marker([10, -40]).bindPopup("[64] <a href='http://dx.doi.org/10.1016/j.marpolbul.2023.114629' target='_blank'>Podlejski et al. (2023)</a>. A new <i>Sargassum</i> drift model derived from features tracking in MODIS images.");
+    mymarkers.addLayer(mymarker);
+    var mymarker = new L.marker([10, -40]).bindPopup("[63] <a href='http://dx.doi.org/10.3389/fmars.2022.960939' target='_blank'>Podlejski et al. (2022)</a>. Filtering out false <i>Sargassum</i> detections using context features.");
     mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-5, 55]).bindPopup("[62] <a href='http://dx.doi.org/10.1093/icesjms/fsac091' target='_blank'>MacMillan et al. (2022)</a>. Spatio-temporal variability in drifting Fish Aggregating Device (dFAD) beaching events in the Seychelles Archipelago.");
 	mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, 80]).bindPopup("[61] <a href='http://dx.doi.org/10.1038/s41893-022-00883-y' target='_blank'>Imzilen et al. (2022)</a>. Recovery at sea of abandoned, lost or discarded drifting fish aggregating devices.");
+    var mymarker = new L.marker([-10, 70]).bindPopup("[61] <a href='http://dx.doi.org/10.1038/s41893-022-00883-y' target='_blank'>Imzilen et al. (2022)</a>. Recovery at sea of abandoned, lost or discarded drifting fish aggregating devices.");
     mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, -20]).bindPopup("[61] <a href='http://dx.doi.org/10.1038/s41893-022-00883-y' target='_blank'>Imzilen et al. (2022)</a>. Recovery at sea of abandoned, lost or discarded drifting fish aggregating devices.");
+    var mymarker = new L.marker([0, -20]).bindPopup("[61] <a href='http://dx.doi.org/10.1038/s41893-022-00883-y' target='_blank'>Imzilen et al. (2022)</a>. Recovery at sea of abandoned, lost or discarded drifting fish aggregating devices.");
     mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, 80]).bindPopup("[60] <a href='http://dx.doi.org/10.1093/icesjms/fsab175' target='_blank'>Dupaix et al. (2021)</a>. Surface habitat modification through industrial tuna fishery practices.");
+    var mymarker = new L.marker([-10, 70]).bindPopup("[60] <a href='http://dx.doi.org/10.1093/icesjms/fsab175' target='_blank'>Dupaix et al. (2021)</a>. Surface habitat modification through industrial tuna fishery practices.");
     mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-20, 37]).bindPopup("[59] <a href='http://dx.doi.org/10.1016/j.ecss.2021.107268' target='_blank'>Malauene et al. (2021)</a>. Spawning areas of two shallow-water penaeid shrimps (<i>Penaeus indicus</i> and <i>Metapenaeus monoceros</i>) on the Sofala Bank, Mozambique.");
     mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, 80]).bindPopup("[58] <a href='http://dx.doi.org/10.1016/j.biocon.2020.108939' target='_blank'>Imzilen et al. (2021)</a>. Spatial management can significantly reduce dFAD beachings in Indian and Atlantic Ocean tropical tuna purse seine fisheries.");
+    var mymarker = new L.marker([-10, 70]).bindPopup("[58] <a href='http://dx.doi.org/10.1016/j.biocon.2020.108939' target='_blank'>Imzilen et al. (2021)</a>. Spatial management can significantly reduce dFAD beachings in Indian and Atlantic Ocean tropical tuna purse seine fisheries.");
     mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, -20]).bindPopup("[58] <a href='http://dx.doi.org/10.1016/j.biocon.2020.108939' target='_blank'>Imzilen et al. (2021)</a>. Spatial management can significantly reduce dFAD beachings in Indian and Atlantic Ocean tropical tuna purse seine fisheries.");
+    var mymarker = new L.marker([0, -20]).bindPopup("[58] <a href='http://dx.doi.org/10.1016/j.biocon.2020.108939' target='_blank'>Imzilen et al. (2021)</a>. Spatial management can significantly reduce dFAD beachings in Indian and Atlantic Ocean tropical tuna purse seine fisheries.");
     mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-5, 55]).bindPopup("[57] <a href='http://dx.doi.org/10.1002/aqc.3420' target='_blank'>Bonnin et al. (2021)</a>. Can drifting objects drive the movements of a vulnerable pelagic shark?");
 	mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, -20]).bindPopup("[56] <a href='http://dx.doi.org/10.1016/j.pocean.2020.102426' target='_blank'>Amemou et al. (2020)</a>. Assessment of a Lagrangian model using trajectories of oceanographic drifters and fishing devices in the Tropical Atlantic Ocean.");
+    var mymarker = new L.marker([0, -20]).bindPopup("[56] <a href='http://dx.doi.org/10.1016/j.pocean.2020.102426' target='_blank'>Amemou et al. (2020)</a>. Assessment of a Lagrangian model using trajectories of oceanographic drifters and fishing devices in the Tropical Atlantic Ocean.");
     mymarkers.addLayer(mymarker);
 	var mymarker = new L.marker([-35, 50]).bindPopup("[55] <a href='http://dx.doi.org/10.1016/j.dsr2.2020.104774' target='_blank'>Crochelet et al. (2020)</a>. Connectivity between seamounts and coastal ecosystems in the Southwestern Indian Ocean.");
 	mymarkers.addLayer(mymarker);
@@ -298,9 +300,9 @@ A lot of studies have addressed the potential benefits and costs of group living
     mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([43.2, 5.23]).bindPopup("[51] <a href='http://dx.doi.org/10.1016/j.marenvres.2019.104781' target='_blank'>Lett et al. (2019)</a>. Modeling larval dispersal for the gilthead seabream in the northwestern Mediterranean Sea.");
     mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, 80]).bindPopup("[50] <a href='http://dx.doi.org/10.1016/j.pocean.2018.11.007' target='_blank'>Imzilen et al. (2019)</a>. Fish aggregating devices drift like oceanographic drifters in the near-surface currents of the Atlantic and Indian Oceans.");
+    var mymarker = new L.marker([-10, 70]).bindPopup("[50] <a href='http://dx.doi.org/10.1016/j.pocean.2018.11.007' target='_blank'>Imzilen et al. (2019)</a>. Fish aggregating devices drift like oceanographic drifters in the near-surface currents of the Atlantic and Indian Oceans.");
     mymarkers.addLayer(mymarker);
-    var mymarker = new L.marker([-10, -20]).bindPopup("[50] <a href='http://dx.doi.org/10.1016/j.pocean.2018.11.007' target='_blank'>Imzilen et al. (2019)</a>. Fish aggregating devices drift like oceanographic drifters in the near-surface currents of the Atlantic and Indian Oceans.");
+    var mymarker = new L.marker([0, -20]).bindPopup("[50] <a href='http://dx.doi.org/10.1016/j.pocean.2018.11.007' target='_blank'>Imzilen et al. (2019)</a>. Fish aggregating devices drift like oceanographic drifters in the near-surface currents of the Atlantic and Indian Oceans.");
     mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-6.43, -80.86]).bindPopup("[49] <a href='http://dx.doi.org/10.1016/j.seares.2018.12.003' target='_blank'>Flores-Valiente et al. (2019)</a>. Larval supply of Peruvian scallop to the marine reserve of Lobos de Tierra Island: a modeling approach.");
     mymarkers.addLayer(mymarker);
@@ -385,7 +387,9 @@ A lot of studies have addressed the potential benefits and costs of group living
 <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/622904/description#description" title="Journal of Theoretical Biology" target="_blank"><img src="Files/JournalJTB.gif" width=45 height=61></a>
 <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/503306/description#description" title="Ecological Modelling" target="_blank"><img src="Files/JournalEM.gif" width=45 height=61></a>
 <br><br>
-[63] <a href="http://dx.doi.org/10.3389/fmars.2022.960939" target="_blank">Podlejski W, Descloitres J, Chevalier C, Minghelli A, <b>Lett C</b>, Berline L (2022)</a>. Filtering out false Sargassum detections using context features. Frontiers in Marine Science 9: 960939.<br>
+[64] <a href='http://dx.doi.org/10.1016/j.marpolbul.2023.114629' target='_blank'>Podlejski W, Berline L, Nerini D, Doglioli A, <b>Lett C</b> (2023)</a>. A new <i>Sargassum</i> drift model derived from features tracking in MODIS images. Marine Pollution Bulletin 188: 114629.<br>
+<br>
+[63] <a href="http://dx.doi.org/10.3389/fmars.2022.960939" target="_blank">Podlejski W, Descloitres J, Chevalier C, Minghelli A, <b>Lett C</b>, Berline L (2022)</a>. Filtering out false <i>Sargassum</i> detections using context features. Frontiers in Marine Science 9: 960939.<br>
 <br>
 [62] <a href="http://dx.doi.org/10.1093/icesjms/fsac091" target="_blank">MacMillan I, Attrill MJ, Imzilen T, <b>Lett C</b>, Walmsley S, Chu C, Kaplan DM (2022)</a>. Spatio-temporal variability in drifting Fish Aggregating Device (dFAD) beaching events in the Seychelles Archipelago. ICES Journal of Marine Science 79(5): 1685&#8211;1700.<br>
 <br>
