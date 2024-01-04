@@ -253,17 +253,19 @@ A lot of studies have addressed the potential benefits and costs of group living
 		zoomOffset: -1}), 
     ocean = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}', {
         minZoom: 2,
-        attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri',
-    });
+        attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri'}),
+    oceanref = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Reference/MapServer/tile/{z}/{y}/{x}', {
+        minZoom: 2})        
+        ;
     
     var mymap = L.map('mapid', {
     center: [0, 40],
     zoom: 2,
-    layers: [satellite, ocean]
+    layers: [ocean, oceanref]
     });
 
     var baseMaps = {
-    "Ocean": ocean,
+    "Ocean": L.layerGroup([ocean, oceanref]),
     "Satellite": satellite
     };
 
