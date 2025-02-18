@@ -271,6 +271,8 @@ A lot of studies have addressed the potential benefits and costs of group living
 
     L.control.layers(baseMaps).addTo(mymap);
     var mymarkers = new L.markerClusterGroup({maxClusterRadius: 20});
+    var mymarker = new L.marker([42, 8]).bindPopup("[74] <a href='http://dx.doi.org/10.1016/j.ecss.2025.109183' target='_blank'>Barrier et al. (2025)</a>. Larval dispersal dynamics of <i>Maja squinado</i> in the Northwestern Mediterranean: a biophysical modeling approach.");
+    mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([15, -45]).bindPopup("[73] <a href='http://dx.doi.org/10.1016/j.pocean.2024.103364' target='_blank'>Podlejski et al. (2024)</a>. Drivers of growth and decay of <i>Sargassum</i> in the Tropical Atlantic: A Lagrangian approach.");
     mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-6, -34]).bindPopup("[72] <a href='http://dx.doi.org/10.1002/lno.12648' target='_blank'>Giachini Tosetto et al. (2024b)</a>. Diel vertical migration and seamount stepping stones promote species connectivity from coastal to offshore insular systems in the Tropical Southwestern Atlantic.");   
@@ -409,6 +411,8 @@ A lot of studies have addressed the potential benefits and costs of group living
 <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/622904/description#description" title="Journal of Theoretical Biology" target="_blank"><img src="Files/JournalJTB.gif" width=45 height=61></a>
 <a href="http://www.elsevier.com/wps/find/journaldescription.cws_home/503306/description#description" title="Ecological Modelling" target="_blank"><img src="Files/JournalEM.gif" width=45 height=61></a>
 <br><br> -->
+[74] <a href='http://dx.doi.org/10.1016/j.ecss.2025.109183' target='_blank'>Barrier C, Beneteau T, Raffalli M-C, Barrier N, <b>Lett C</b>, Pasqualini V, Durieux EDH (2025)</a>. Larval dispersal dynamics of <i>Maja squinado</i> in the Northwestern Mediterranean: a biophysical modeling approach. Estuarine, Coastal and Shelf Science 316: 109183.<br>
+<br>
 [73] <a href='http://dx.doi.org/10.1016/j.pocean.2024.103364' target='_blank'>Podlejski W, Berline L, Jouanno J, Barrier N, <b>Lett C</b> (2024)</a>. Drivers of growth and decay of <i>Sargassum</i> in the Tropical Atlantic: A Lagrangian approach. Progress in Oceanography 229: 103364.<br>
 <br>
 [72] <a href='http://dx.doi.org/10.1002/lno.12648' target='_blank'>Giachini Tosetto E, <b>Lett C</b>, Neumann-Leitão S, Koch-Larrouy A, Barrier N, Costa da Silva A, Salvetat J, Bertrand A (2024)</a>. Diel vertical migration and seamount stepping stones promote species connectivity from coastal to offshore insular systems in the Tropical Southwestern Atlantic. Limnology and Oceanography 69(9): 2071&#8211;2084.<br>
