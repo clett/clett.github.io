@@ -272,6 +272,7 @@ A lot of studies have addressed the potential benefits and costs of group living
     L.control.layers(baseMaps).addTo(mymap);
     var mymarkers = new L.markerClusterGroup({maxClusterRadius: 20});
     var mymarker = new L.marker([15, -45]).bindPopup("[73] <a href='http://dx.doi.org/10.1016/j.pocean.2024.103364' target='_blank'>Lagunes et al. (2026)</a>. From calibration to identifiability analysis: using a multi-reserve DEB model to understand holopelagic <i>Sargassum</i> spp. growth.");
+    mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([-6, -34]).bindPopup("[81] <a href='http://dx.doi.org/10.1016/j.pocean.2026.103705' target='_blank'>Giachini Tosetto et al. (2026)</a>. Species dispersal and community assembly facing the Atlantic Meridional Overturning Circulation.");
     mymarkers.addLayer(mymarker);
     var mymarker = new L.marker([42, 8]).bindPopup("[80] <a href='http://dx.doi.org/10.1007/s10530-026-03781-y' target='_blank'>Barrier et al. (2026)</a>. Multiscale modelling of dispersal pathways for the invasive blue crab larvae (<i>Callinectes sapidus</i>) in the Mediterranean Sea.");
